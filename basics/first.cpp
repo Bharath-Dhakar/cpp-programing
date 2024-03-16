@@ -5,8 +5,8 @@
 
 int main()
 {
-  
-    std::cout << "Hello World";  // scope operator(::)
+ 
+    std::cout << "Hello World "; // scope operator(::)
  
     return 0;
 }
