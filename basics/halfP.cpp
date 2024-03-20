@@ -1,20 +1,24 @@
-#include<iostream>
-using namespace std ;
-int main(){
-int n  ; 
-cout << "Enter the n :: " ;
-cin >> n ;
+#include <iostream>
+using namespace std;
 
+int main() {
+    int rows ;
+    cout<<"enter rows ::";
+    cin>>rows ;
+  
 
+    for (int i = 1; i <= rows; i++) {
+      //  char ch = 'A';
+        for (int j = 1; j <= rows - i ; j++) {   
+            cout << "  ";                         
+        }                                            
+        for (int k = 1; k <= i; k++) {
+            cout << k << " " ; 
+        }
 
-for(int p =  1  ; p<=n ; p++  ){
-    for(int q = 1 ; q <=p ; q++  ){
-    
+       
+        cout << endl;
+    }
 
-   
-}
-
-cout<< "\n" ;
-}
-return 0 ;
+    return 0;
 }
